@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcolo Biglietto del treno</title>
+</head>
+
+<body>
+  <!-- <h1></h1> -->
+  <div id="form">
+    <label for="name-user">Inserisic il tuo nome</label>
+    <input type="text" id="name-user" name="nameUser">
+
+    <label for="km">Inserisci i Km</label>
+    <input type="text" id="km" name="km">
+
+    <label for="fascia-eta">Fascia Eta</label>
+    <select name="fascia-eta" id="fascia-eta">
+      <option value="standard">Standard</option>
+      <option value="minorenne">Minorenne</option>
+      <option value="over65">Over 65</option>
+    </select>
+
+    <button id="genera">genera</button>
+    <button id="annulla">annulla</button>
+  </div>
+
+  <div id="biglietto">
+    <h1 id="name-user-print"></h1>
+    <span id="price"></span>
+    <span id="carrozza"></span>
+    <span id="cp"></span>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
